@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
 
+tt{
+  font-size: 15px;
+}
+
 .body{
   color: white;
 }
@@ -21,10 +25,6 @@
 
 }
 
-.consolata-font{
-  font-family: 'Inconsolata';
-  font-weight: bold;
-}
 
 .text-center{
   display: flex;
@@ -54,12 +54,14 @@
   font-size: 15px;
   float: right;
   margin-right: 60px;
+  
 }
 
 .home:hover{
   color: rgb(249, 199, 132);
-  zoom: 105%;
+  background-color: blue;
 }
+
 
 .html{
   text-decoration: none;
@@ -72,7 +74,6 @@
 
 .html:hover{
   color: rgb(249, 199, 132);
-  zoom: 105%;
 }
 
 .intro{
@@ -112,6 +113,19 @@
   border-radius: 10px;
   margin-top: 25px;
 }
+
+.wh-button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: rgb(252, 175, 88);
+  transition: 0.5s;
+}
+
+.wh-button a{
+  text-decoration: none;
+  color: black;
+}
+
 
 .sample-table{
   font-size: 30px;
