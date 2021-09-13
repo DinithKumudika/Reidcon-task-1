@@ -11,9 +11,12 @@ tt{
 }
 
 .logo{
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   align-self: left;
+  position: fixed;
+  top: 0px;
+  left: -5px;
 }
 
 .logo-hover{
@@ -40,11 +43,13 @@ tt{
 .navbar{
   background-color: rgb(78, 89, 140);
   width: 1820px;
-  height:10%;
-  float: left;
-  padding-top: 16px;
-  padding-right: 16px;
+  height:2.5%;
+  position: fixed;
+  top: -2px;
+  padding-top: 18px;
+  padding-right: 42px;
   padding-bottom: 16px;
+  margin-left: 40px;
 }
 
 .home{
@@ -54,14 +59,16 @@ tt{
   font-size: 15px;
   float: right;
   margin-right: 60px;
-  
+
 }
 
 .home:hover{
   color: rgb(249, 199, 132);
-  background-color: blue;
+  border-bottom: 2px solid;
+  border-color: rgb(249, 199, 132);
+  transform: scale(1.1);
+  transition: 0.3s;
 }
-
 
 .html{
   text-decoration: none;
@@ -74,8 +81,11 @@ tt{
 
 .html:hover{
   color: rgb(249, 199, 132);
+  border-bottom: 2px solid;
+  border-color: rgb(249, 199, 132);
+  transform: scale(1.1);
+  transition: 0.3s;
 }
-
 .intro{
   color: black;
 }
@@ -116,9 +126,10 @@ tt{
 
 .wh-button:hover{
   cursor: pointer;
-  background-color: black;
-  color: rgb(252, 175, 88);
+  background-color: rgb(78, 89, 140);
+  color: white;
   transition: 0.5s;
+  transform: scale(1.1);
 }
 
 .wh-button a{
@@ -205,4 +216,111 @@ th{
   background-color: rgb(78, 89, 140);
   color: white;
   height: 45px;
+}
+
+.paragraph{
+  margin-right: 150px;
+  margin-left: 300px;
+}
+
+.p-html{
+  text-align: left;
+}
+.p-css{
+  text-align: justify;
+}
+
+.p-red{
+  color: red;
+}
+
+.p-js{
+}
+
+.js{
+  text-align: right;
+  width: 62%;
+  margin-left: 240px;
+}
+
+.form{
+  margin: 30px 300px 20px 700px;
+}
+
+.form-caption{
+  text-align: center;
+  width: 50%;
+}
+
+#name{
+  margin-left: 100px;
+  width: 250px;
+  height: 30px;
+  border: 1px rgb(221, 221, 221) solid;
+}
+
+#eMail{
+  margin-left: 103px;
+  width: 250px;
+  height: 30px;
+  border: 1px rgb(221, 221, 221) solid;
+}
+
+#rd-1{
+  margin-left: 100px;
+}
+
+#rd-2{
+  margin-left: 20px;
+}
+
+#year{
+  width: 255px;
+  height: 30px;
+  margin-left: 37px;
+}
+
+#ch-1{
+  margin-left: 100px;
+}
+
+#ch-2{
+  margin-left: 50px;
+}
+
+#ch-3{
+  margin-left: 50px;
+}
+.submit{
+  height: 40px;
+  width: 90px;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(252, 175, 88);
+  border-width: 0px;
+  border-radius: 10px;
+  margin-left: 180px;
+}
+
+.submit:hover{
+  background-color: rgb(255, 140, 66);
+  transition: 0.5s;
+  zoom: 105%;
+  transition: 0.9s;
+}
+
+.reset{
+  height: 40px;
+  width: 90px;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(238, 238, 238);
+  border-width: 0px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+.reset:hover{
+  background-color: rgb(221, 221, 221);
+  transition: 0.5s;
+  zoom: 105%;
+  transition: 0.9s;
 }
