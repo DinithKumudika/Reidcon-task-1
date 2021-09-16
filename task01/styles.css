@@ -1,20 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @keyframe image {
-  from{}
-  to{}
+  from {}
+
+  to {}
 }
 
-tt{
+tt {
   font-size: 15px;
 }
 
-.body{
-  color: white;
+body {
+
+  font-family: 'Roboto', sans-serif;
 }
 
-.logo{
+.logo {
   width: 60px;
   height: 60px;
   align-self: left;
@@ -23,33 +24,34 @@ tt{
   left: -5px;
 }
 
-.Roboto-font{
+.Roboto-font {
   font-family: 'Roboto';
 }
 
 
-.text-center{
+.text-center {
   display: flex;
   justify-content: center;
 }
 
-.center{
+.center {
   display: flex;
   align-content: flex-start;
 }
 
-.nav-list{
+.nav-list {
   list-style-type: none;
 }
 
-.nav-1, .nav-2{
+.nav-1,
+.nav-2 {
   margin-bottom: -15px;
 }
 
-.navbar{
+.navbar {
   background-color: rgb(78, 89, 140);
   width: 100%;
-  height:25px;
+  height: 25px;
   position: fixed;
   top: -2px;
   padding-top: 15px;
@@ -58,7 +60,7 @@ tt{
   margin-left: 40px;
 }
 
-.home{
+.home {
   text-decoration: none;
   color: white;
   padding: 5px 2px 2px 2px;
@@ -67,7 +69,7 @@ tt{
   margin-right: 50px;
 }
 
-.home:hover{
+.home:hover {
   color: black;
   transform: scale(1.1);
   transition: 0.3s;
@@ -79,7 +81,7 @@ tt{
 
 }
 
-.html{
+.html {
   text-decoration: none;
   color: white;
   font-size: 15px;
@@ -88,7 +90,7 @@ tt{
   margin-right: 75px;
 }
 
-.html:hover{
+.html:hover {
   color: black;
   background-color: rgb(249, 199, 132);
   border-width: 0px;
@@ -99,7 +101,7 @@ tt{
   transition: 0.3s;
 }
 
-.html:active{
+.html:active {
   color: black;
   background-color: rgb(249, 199, 132);
   border-width: 0px;
@@ -110,39 +112,50 @@ tt{
   transition: 0.3s;
 }
 
-.intro{
+.intro {
   display: flex;
   align-items: center;
   width: 100%;
 }
 
-.home-h{
+.intro table {
+  margin: 0 auto;
+}
+
+.intro td {
+  width: 50%;
+  vertical-align: top;
+}
+
+.home-h {
   font-size: 50px;
-  font-weight:lighter;
+  font-weight: lighter;
 }
 
-.home-p{
-  width: 550px;
-  height: auto;
-  margin-top: -110px;
-  margin-left: 60px;
+.home-p {
   width: 100%;
+  height: auto;
+  margin-top: 78px;
 }
 
-.hero{
-  width: 730px;
-  height: 380px;
-  padding-top: 30px;
-  padding-right: 140px;
-  margin-top: 15px;
-  margin-left: 340px;
+.home-p p {
+  margin: 0 182px 0 38px;
 }
 
-.tags{
+.hero {
+  width: 78%;
+  padding-top: 38px;
+  padding-right: 0px;
+  margin-top: 48px;
+  
+  margin-right: 42px;
+}
+
+.tags {
   background-color: rgb(238, 238, 238);
 }
 
-.wh-button{
+.wh-button {
   background-color: rgb(252, 175, 88);
   border-width: 0px;
   width: 123px;
@@ -151,110 +164,123 @@ tt{
   margin-top: 25px;
 }
 
-.wh-button:hover{
+.wh-button:hover {
   cursor: pointer;
   background-color: rgb(78, 89, 140);
   color: white;
   transition: 0.5s;
   transform: scale(1.1);
 }
-.sample-table{
+
+.table{
+  margin: 0 60px 50px 60px;
+}
+
+.sample-table {
   font-size: 30px;
   text-align: left;
-  font-weight:normal;
+  font-weight: normal;
 }
 
-.t-description{
+.t-description {
   text-align: left;
 }
 
-.timetable{
+.timetable {
   border-bottom: 2px solid;
+  font-size: 15px;
+  /* hello */
   border-bottom-color: rgb(78, 89, 140);
   box-shadow: 0px 0px 15px 5px #DDDDDD;
 }
 
-th{
+th {
   background-color: rgb(78, 89, 140);
   color: white;
   height: 45px;
 }
 
-.th-1{
+.th-1 {
   padding-left: 10px;
   width: 180px;
 }
-.th-2{
+
+.th-2 {
   padding-left: 10px;
   width: 225px;
 }
-.th-3{
+
+.th-3 {
   padding-left: 10px;
   width: 210px;
 }
-.th-4{
+
+.th-4 {
   padding-left: 10px;
   width: 245px;
 }
-.th-5{
+
+.th-5 {
   padding-left: 10px;
   width: 180px;
   vertical-align: middle;
 }
 
-.t-data{
+.t-data {
   padding-left: 10px;
   border-left: 0.5px solid;
   border-color: rgb(238, 238, 238);
 }
 
-.t-data-l{
+.t-data-l {
   padding-top: 20px;
   padding-left: 10px;
 }
 
-.interval{
+.interval {
   text-align: center;
   color: rgb(78, 89, 140);
 }
 
-.tr-2, .tr-4{
+.tr-2,
+.tr-4 {
   background-color: rgb(238, 238, 238);
 }
 
-.tr-3{
+.tr-3 {
   color: rgb(78, 89, 140);
 }
 
-.row{
+.row {
   height: 50px;
 }
 
-.why-html{
+.why-html {
   width: 100%;
   display: flex;
   align-items: flex-start;
 }
 
-.app{
+.app {
   height: 420px;
   width: 570px;
   margin-left: 80px;
 }
 
-.paragraph{
+.paragraph {
   margin-right: 220px;
   margin-left: 400px;
 }
 
-.p-html{
+.p-html {
   text-align: left;
 }
-.p-css{
+
+.p-css {
   text-align: justify;
 }
 
-.p-red{
+.p-red {
   color: red;
 }
 
@@ -265,82 +291,86 @@ th{
 }
 
 
-.js{
+.js {
   text-align: right;
 }
 
-.form{
+.form {
   margin-left: 40%;
   margin-right: 20%;
 }
 
-.form-caption{
+.form-caption {
   text-align: center;
   width: 50%;
   font-weight: normal;
   font-size: 25px;
 }
 
-#name{
+#name {
   margin-left: 100px;
   width: 250px;
   height: 30px;
   border: 1px rgb(221, 221, 221) solid;
 }
 
-#eMail{
+#eMail {
   margin-left: 103px;
   width: 250px;
   height: 30px;
   border: 1px rgb(221, 221, 221) solid;
 }
 
-#rd-1{
+#rd-1 {
   margin-left: 155px;
 }
 
-#rd-2{
+#rd-2 {
   margin-left: 60px;
 }
 
-#rd-1:hover, #rd-2:hover{
+#rd-1:hover,
+#rd-2:hover {
   cursor: pointer;
 }
 
-.rd-text:hover{
+.rd-text:hover {
   cursor: default;
 }
 
-#year{
+#year {
   width: 255px;
   height: 30px;
   margin-left: 37px;
 }
 
-#ch-1{
+#ch-1 {
   margin-left: 85px;
 }
 
-#ch-2, #ch-3{
+#ch-2,
+#ch-3 {
   margin-left: 40px;
 }
 
-#ch-1:hover, #ch-2:hover, #ch-3:hover{
+#ch-1:hover,
+#ch-2:hover,
+#ch-3:hover {
   cursor: pointer;
 }
 
-.ch-text:hover{
-  cursor:default;
+.ch-text:hover {
+  cursor: default;
 }
 
-#feedback{
+#feedback {
   margin-left: 70px;
   border-radius: 5px;
   border: 2px rgb(238, 238, 238) solid;
   resize: none;
 }
 
-.submit{
+.submit {
   height: 30px;
   width: 60px;
   padding: 5px 15px 5px 15px;
@@ -351,7 +381,7 @@ th{
   text-align: center;
 }
 
-.submit:hover{
+.submit:hover {
   background-color: rgb(255, 140, 66);
   transition: 0.5s;
   transform: scale(1.1);
@@ -360,11 +390,11 @@ th{
   cursor: pointer;
 }
 
-.s-r{
+.s-r {
   padding-left: 200px;
 }
 
-.reset{
+.reset {
   height: 42px;
   width: 90px;
   padding: 6px 15px 4px 15px;
@@ -376,7 +406,7 @@ th{
   text-align: center;
 }
 
-.reset:hover{
+.reset:hover {
   background-color: rgb(221, 221, 221);
   transition: 0.5s;
   transform: scale(1.1);
