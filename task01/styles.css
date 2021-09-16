@@ -20,7 +20,7 @@ tt{
   align-self: left;
   position: fixed;
   top: 1px;
-  left: -3px;
+  left: -5px;
 }
 
 .Roboto-font{
@@ -36,6 +36,14 @@ tt{
 .center{
   display: flex;
   align-content: flex-start;
+}
+
+.nav-list{
+  list-style-type: none;
+}
+
+.nav-1, .nav-2{
+  margin-bottom: -15px;
 }
 
 .navbar{
@@ -90,8 +98,22 @@ tt{
   vertical-align: middle;
   transition: 0.3s;
 }
-.intro{
+
+.html:active{
   color: black;
+  background-color: rgb(249, 199, 132);
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 5px 8px 5px 8px;
+  transform: scale(1.1);
+  vertical-align: middle;
+  transition: 0.3s;
+}
+
+.intro{
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 .home-h{
@@ -99,11 +121,12 @@ tt{
   font-weight:lighter;
 }
 
-.p-div{
+.home-p{
   width: 550px;
   height: auto;
   margin-top: -110px;
   margin-left: 60px;
+  width: 100%;
 }
 
 .hero{
@@ -116,7 +139,7 @@ tt{
 }
 
 .tags{
-  background-color: rgb(221, 221, 221);
+  background-color: rgb(238, 238, 238);
 }
 
 .wh-button{
@@ -207,6 +230,12 @@ th{
   height: 50px;
 }
 
+.why-html{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
 .app{
   height: 420px;
   width: 570px;
@@ -229,13 +258,15 @@ th{
   color: red;
 }
 
-.p-js{
+.p-block {
+  width: 200px;
+  border-radius: 10px;
+  padding: 3px;
 }
+
 
 .js{
   text-align: right;
-  width: 62%;
-  margin-left: 230px;
 }
 
 .form{
@@ -246,6 +277,8 @@ th{
 .form-caption{
   text-align: center;
   width: 50%;
+  font-weight: normal;
+  font-size: 25px;
 }
 
 #name{
@@ -275,27 +308,20 @@ th{
 }
 
 .rd-text:hover{
-  color: rgb(78, 89, 140);
-  cursor: pointer;
+  cursor: default;
 }
 
 #year{
   width: 255px;
   height: 30px;
   margin-left: 37px;
-  border: 1px solid;
-  border-color: rgb(238, 238, 238);
 }
 
 #ch-1{
   margin-left: 85px;
 }
 
-#ch-2{
-  margin-left: 40px;
-}
-
-#ch-3{
+#ch-2, #ch-3{
   margin-left: 40px;
 }
 
@@ -304,13 +330,14 @@ th{
 }
 
 .ch-text:hover{
-  color: rgb(78, 89, 140);
-  cursor:pointer;
+  cursor:default;
 }
 
 #feedback{
   margin-left: 70px;
   border-radius: 5px;
+  border: 2px rgb(238, 238, 238) solid;
+  resize: none;
 }
 
 .submit{
