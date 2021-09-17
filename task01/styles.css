@@ -170,7 +170,7 @@ body {
 }
 
 .hero {
-  width: 540px;
+  width: 700px;
   margin-top: 92px;
   animation-name: reveal;
   animation-delay: 0s;
@@ -203,6 +203,9 @@ body {
   transform: scale(1.1);
 }
 
+.space{
+  height: 40px;
+}
 /* First page Table */
 .sample-table {
   font-size: 30px;
@@ -221,7 +224,6 @@ body {
   box-shadow: 0px 0px 15px 5px #DDDDDD;
   align-self: start;
   min-width: 400px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 5s;
@@ -229,7 +231,7 @@ body {
 }
 
 .timetable caption {
-  margin: 20px 0px
+  margin: 20px 0px;
 }
 
 th {
@@ -239,15 +241,16 @@ th {
   padding-left: 20px;
   padding-right: 20px;
   height: 45px;
+  border: 1px solid white;
 }
 
 td {
   text-align: left;
-  padding: 10px;
+  padding: 20px;
+  border: 1px solid #DDDDDD;
 }
 
-.timetable,
-tr:last-of-type {
+.timetable,tr:last-of-type {
   border-bottom: 3px solid rgb(78, 89, 140);
 }
 
@@ -270,97 +273,8 @@ tr:last-of-type {
 }
 
 tr:nth-child(even) {
-  background-color: #dadada;
+  background-color: #EEEEEE;
 }
-
-/* .table {
-  margin: 0 60px 50px 60px;
-}
-
-.sample-table {
-  font-size: 30px;
-  text-align: left;
-  font-weight: normal;
-}
-
-.t-description {
-  text-align: left;
-}
-
-.timetable {
-  border-bottom: 2px solid;
-  font-size: 15px;
-   hello
-  border-bottom-color: rgb(78, 89, 140);
-  box-shadow: 0px 0px 15px 5px #DDDDDD;
-  animation-name: reveal;
-  animation-delay: 0s;
-  animation-duration: 5s;
-  animation-timing-function: ease-in;
-}
-
-th {
-  background-color: rgb(78, 89, 140);
-  color: white;
-  height: 45px;
-}
-
-.th-1 {
-  padding-left: 10px;
-  width: 180px;
-}
-
-.th-2 {
-  padding-left: 10px;
-  width: 225px;
-}
-
-.th-3 {
-  padding-left: 10px;
-  width: 210px;
-}
-
-.th-4 {
-  padding-left: 10px;
-  width: 245px;
-}
-
-.th-5 {
-  padding-left: 10px;
-  width: 180px;
-  vertical-align: middle;
-}
-
-.t-data {
-  padding-left: 10px;
-  border-left: 0.5px solid;
-  border-color: rgb(238, 238, 238);
-}
-
-.t-data-l {
-  padding-top: 20px;
-  padding-left: 10px;
-}
-
-.interval {
-  text-align: center;
-  color: rgb(78, 89, 140);
-}
-
-.tr-2,
-.tr-4 {
-  background-color: rgb(238, 238, 238);
-}
-
-.tr-3 {
-  color: rgb(78, 89, 140);
-}
-
-.row {
-  height: 50px;
-} */
-
-/* Page two Content */
 
 .why-html {
   display: flex;
