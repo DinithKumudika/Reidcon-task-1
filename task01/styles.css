@@ -204,8 +204,75 @@ body {
 }
 
 /* First page Table */
+.sample-table{
+  font-size: 30px;
+  text-align: left;
+  font-weight:normal;
+}
 
-.table {
+.t-description{
+  text-align: left;
+}
+
+.timetable{
+  border-collapse: collapse ;
+  margin: 0 auto;
+  border-bottom: 2px solid;
+  box-shadow: 0px 0px 15px 5px #DDDDDD;
+  align-self: start;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  animation-name: reveal;
+  animation-delay: 0s;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+}
+
+.timetable caption{
+  margin: 20px 0px
+}
+
+th{
+  background-color: rgb(78, 89, 140);
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 45px;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+.timetable, tr:last-of-type {
+  border-bottom: 3px solid rgb(78, 89, 140);
+}
+
+.active-row{
+  
+  color: rgb(78, 89, 140);
+  font-weight: bold;
+}
+
+.interval{
+  text-align: center;
+}
+
+.tableData-l{
+  padding: 15px 10px;
+}
+
+.tableData-l ul{
+  padding: 0px 20px;
+}
+
+tr:nth-child(even){
+  background-color: #dadada;
+}
+
+/* .table {
   margin: 0 60px 50px 60px;
 }
 
@@ -222,7 +289,7 @@ body {
 .timetable {
   border-bottom: 2px solid;
   font-size: 15px;
-  /* hello */
+   hello
   border-bottom-color: rgb(78, 89, 140);
   box-shadow: 0px 0px 15px 5px #DDDDDD;
   animation-name: reveal;
@@ -290,7 +357,7 @@ th {
 
 .row {
   height: 50px;
-}
+} */
 
 /* Page two Content */
 
