@@ -204,18 +204,18 @@ body {
 }
 
 /* First page Table */
-.sample-table{
+.sample-table {
   font-size: 30px;
   text-align: left;
-  font-weight:normal;
+  font-weight: normal;
 }
 
-.t-description{
+.t-description {
   text-align: left;
 }
 
-.timetable{
-  border-collapse: collapse ;
+.timetable {
+  border-collapse: collapse;
   margin: 0 auto;
   border-bottom: 2px solid;
   box-shadow: 0px 0px 15px 5px #DDDDDD;
@@ -228,11 +228,11 @@ body {
   animation-timing-function: ease-in;
 }
 
-.timetable caption{
+.timetable caption {
   margin: 20px 0px
 }
 
-th{
+th {
   background-color: rgb(78, 89, 140);
   color: white;
   text-align: left;
@@ -246,29 +246,30 @@ td {
   padding: 10px;
 }
 
-.timetable, tr:last-of-type {
+.timetable,
+tr:last-of-type {
   border-bottom: 3px solid rgb(78, 89, 140);
 }
 
-.active-row{
-  
+.active-row {
+
   color: rgb(78, 89, 140);
   font-weight: bold;
 }
 
-.interval{
+.interval {
   text-align: center;
 }
 
-.tableData-l{
+.tableData-l {
   padding: 15px 10px;
 }
 
-.tableData-l ul{
+.tableData-l ul {
   padding: 0px 20px;
 }
 
-tr:nth-child(even){
+tr:nth-child(even) {
   background-color: #dadada;
 }
 
@@ -429,8 +430,8 @@ th {
 /* Page Two Form */
 
 .form {
-  margin-left: 40%;
-  margin-right: 20%;
+  display: flex;
+  justify-content: center;
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 4s;
@@ -439,7 +440,6 @@ th {
 
 .form-caption {
   text-align: center;
-  width: 50%;
   font-weight: normal;
   font-size: 25px;
 }
@@ -531,7 +531,7 @@ th {
 }
 
 .s-r {
-  padding-left: 200px;
+  padding-left: 190px;
 }
 
 .reset {
