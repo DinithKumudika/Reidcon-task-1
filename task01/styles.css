@@ -150,15 +150,9 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-}
-
-.intro table {
-  margin: 0 auto;
-}
-
-.intro td {
-  width: 50%;
-  vertical-align: top;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .home-h {
@@ -167,30 +161,25 @@ body {
 }
 
 .home-p {
-  width: 100%;
-  height: auto;
-  margin-top: 78px;
+  width: 43%;
+  margin-top: 42px;
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 3s;
   animation-timing-function: ease-in;
 }
 
-.home-p p {
-  margin: 0 56px 0 38px;
-}
-
 .hero {
-  width: 500px;
-  padding-top: 38px;
-  padding-right: 0px;
-  margin-top: 48px;
-  margin-right: 42px;
-  margin-left: 73px;
+  width: 540px;
+  margin-top: 92px;
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 4s;
   animation-timing-function: ease-in;
+}
+
+.hero img {
+  max-width: 100%;
 }
 
 .tags {
@@ -338,7 +327,7 @@ th {
   font-size: 18px;
 }
 
-.paragraph h5{
+.paragraph h5 {
   display: inline;
 }
 
@@ -346,9 +335,10 @@ th {
   text-align: left;
 }
 
-.p-html tt{ 
+.p-html tt {
   font-size: 15px;
 }
+
 .p-css {
   text-align: justify;
 }
