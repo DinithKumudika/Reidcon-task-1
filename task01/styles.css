@@ -16,7 +16,6 @@
     opacity: 100%
   }
 }
-/* heu */
 
 tt {
   font-size: 15px;
@@ -178,15 +177,16 @@ body {
 }
 
 .home-p p {
-  margin: 0 182px 0 38px;
+  margin: 0 56px 0 38px;
 }
 
 .hero {
-  width: 78%;
+  width: 500px;
   padding-top: 38px;
   padding-right: 0px;
   margin-top: 48px;
   margin-right: 42px;
+  margin-left: 73px;
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 4s;
@@ -334,14 +334,21 @@ th {
   animation-timing-function: ease-in;
 }
 
-.paragraph tt{
+.paragraph tt {
   font-size: 18px;
+}
+
+.paragraph h5{
+  display: inline;
 }
 
 .p-html {
   text-align: left;
 }
 
+.p-html tt{ 
+  font-size: 15px;
+}
 .p-css {
   text-align: justify;
 }
@@ -444,9 +451,8 @@ th {
 }
 
 .submit {
-  height: 30px;
-  width: 60px;
-  padding: 5px 15px 5px 15px;
+  height: 40px;
+  width: 90px;
   background-color: rgb(252, 175, 88);
   border-width: 0px;
   border-radius: 10px;
@@ -472,10 +478,8 @@ th {
 }
 
 .reset {
-  height: 42px;
+  height: 40px;
   width: 90px;
-  padding: 6px 15px 4px 15px;
-  background-color: rgb(238, 238, 238);
   border-width: 0px;
   border-radius: 10px;
   margin-left: 30px;
