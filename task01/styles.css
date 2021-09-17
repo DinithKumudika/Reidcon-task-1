@@ -39,6 +39,7 @@ body {
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 1s;
+  animation-timing-function: ease-in;
 }
 
 .logo:hover {
@@ -71,6 +72,7 @@ body {
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 2s;
+  animation-timing-function: ease-in;
 }
 
 .navbar {
@@ -86,6 +88,7 @@ body {
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 2s;
+  animation-timing-function: ease-in;
 }
 
 .home {
@@ -168,7 +171,8 @@ body {
   margin-top: 78px;
   animation-name: reveal;
   animation-delay: 0s;
-  animation-duration: 2s;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
 }
 
 .home-p p {
@@ -183,7 +187,8 @@ body {
   margin-right: 42px;
   animation-name: reveal;
   animation-delay: 0s;
-  animation-duration: 3s;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
 }
 
 .tags {
@@ -231,7 +236,8 @@ body {
   box-shadow: 0px 0px 15px 5px #DDDDDD;
   animation-name: reveal;
   animation-delay: 0s;
-  animation-duration: 4s;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
 }
 
 th {
@@ -311,6 +317,7 @@ th {
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 2s;
+  animation-timing-function: ease-in;
 }
 
 .app img {
@@ -322,6 +329,7 @@ th {
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 3s;
+  animation-timing-function: ease-in;
 }
 
 .paragraph tt{
@@ -360,6 +368,7 @@ th {
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 4s;
+  animation-timing-function: ease-in;
 }
 
 .form-caption {
@@ -444,6 +453,7 @@ th {
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 5s;
+  animation-timing-function: ease-in;
 }
 
 .submit:hover {
@@ -472,6 +482,7 @@ th {
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 5s;
+  animation-timing-function: ease-in;
 }
 
 .reset:hover {
