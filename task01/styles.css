@@ -4,9 +4,17 @@
 /*Animations*/
 
 @keyframes reveal {
-  0%{opacity: 0%}
-  50%{opacity: 0%;}
-  100%{opacity: 100%}
+  0% {
+    opacity: 0%
+  }
+
+  50% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%
+  }
 }
 
 
@@ -18,6 +26,8 @@ body {
 
   font-family: 'Roboto', sans-serif;
 }
+
+/* Navigation Bar */
 
 .logo {
   width: 60px;
@@ -31,7 +41,7 @@ body {
   animation-duration: 1s;
 }
 
-.logo:hover{
+.logo:hover {
   transform: scale(1.2);
   transition: 0.3s;
 }
@@ -130,6 +140,8 @@ body {
   transition: 0.3s;
 }
 
+/* First page content */
+
 .intro {
   display: flex;
   align-items: center;
@@ -195,7 +207,9 @@ body {
   transform: scale(1.1);
 }
 
-.table{
+/* First page Table */
+
+.table {
   margin: 0 60px 50px 60px;
 }
 
@@ -281,24 +295,30 @@ th {
   height: 50px;
 }
 
+/* Page two Content */
+
 .why-html {
-  width: 100%;
   display: flex;
-  align-items: flex-start;
+  margin: 54px 40px;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .app {
-  height: 420px;
-  width: 570px;
-  margin-left: 80px;
+  width: 475px;
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 2s;
 }
 
+.app img {
+  max-width: 100%;
+}
+
 .paragraph {
-  margin-right: 220px;
-  margin-left: 400px;
+  width: 43%;
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 3s;
@@ -322,10 +342,11 @@ th {
   padding: 3px;
 }
 
-
 .js {
   text-align: right;
 }
+
+/* Page Two Form */
 
 .form {
   margin-left: 40%;
