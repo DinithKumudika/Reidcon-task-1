@@ -16,7 +16,7 @@
     opacity: 100%
   }
 }
-
+/* heu */
 
 tt {
   font-size: 15px;
@@ -299,7 +299,7 @@ th {
 
 .why-html {
   display: flex;
-  margin: 54px 40px;
+  margin: 54px 0;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
@@ -307,7 +307,7 @@ th {
 }
 
 .app {
-  width: 475px;
+  width: 480px;
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 2s;
@@ -318,10 +318,14 @@ th {
 }
 
 .paragraph {
-  width: 43%;
+  width: 40%;
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 3s;
+}
+
+.paragraph tt{
+  font-size: 18px;
 }
 
 .p-html {
@@ -342,7 +346,9 @@ th {
   padding: 3px;
 }
 
-.js {
+.p-js {
+
+  margin-left: 146px;
   text-align: right;
 }
 
