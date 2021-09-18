@@ -26,6 +26,15 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+@keyframes flyin {
+  0%{
+    top:-200px;
+  }
+  100%{
+    top: 50px;
+  }
+}
+
 /* Navigation Bar */
 
 .logo {
@@ -42,8 +51,6 @@ body {
 }
 
 .logo:hover {
-  transform: scale(1.2);
-  transition: 0.3s;
   transform: rotateY(360deg);
   transition-duration: 2s;
 }
@@ -204,7 +211,7 @@ body {
 }
 
 .space{
-  height: 40px;
+  height: 20px;
 }
 /* First page Table */
 .sample-table {
@@ -349,7 +356,7 @@ tr:nth-child(even) {
   animation-name: reveal;
   animation-delay: 0s;
   animation-duration: 4s;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in-out;
 }
 
 .form-caption {
@@ -374,15 +381,20 @@ tr:nth-child(even) {
 
 #rd-1 {
   margin-left: 155px;
+  transition: transform 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 #rd-2 {
   margin-left: 60px;
+  transition: transform 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 #rd-1:hover,
 #rd-2:hover {
   cursor: pointer;
+  transform: scale(1.2);
 }
 
 .rd-text:hover {
@@ -397,17 +409,22 @@ tr:nth-child(even) {
 
 #ch-1 {
   margin-left: 85px;
+  transition: transform 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 #ch-2,
 #ch-3 {
   margin-left: 40px;
+  transition: transform 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 #ch-1:hover,
 #ch-2:hover,
 #ch-3:hover {
   cursor: pointer;
+  transform: scale(1.2);
 }
 
 .ch-text:hover {
