@@ -105,7 +105,6 @@ body {
   text-decoration: none;
   color: white;
   padding: 5px 2px 2px 2px;
-  font-size: 15px;
   float: right;
   margin-right: 50px;
 }
@@ -126,7 +125,6 @@ body {
 .html {
   text-decoration: none;
   color: white;
-  font-size: 15px;
   padding: 5px 10px 2px 2px;
   float: right;
   margin-right: 75px;
