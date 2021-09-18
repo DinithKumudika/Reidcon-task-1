@@ -365,6 +365,8 @@ tr:nth-child(even) {
   font-size: 25px;
 }
 
+/*Name-Text field*/
+
 #name {
   margin-left: 100px;
   width: 250px;
@@ -372,12 +374,16 @@ tr:nth-child(even) {
   border: 1px rgb(221, 221, 221) solid;
 }
 
+/*Email-Text field*/
+
 #eMail {
   margin-left: 103px;
   width: 250px;
   height: 30px;
   border: 1px rgb(221, 221, 221) solid;
 }
+
+/*Gender-Radio buttons*/
 
 #rd-1 {
   margin-left: 155px;
@@ -401,12 +407,15 @@ tr:nth-child(even) {
   cursor: default;
 }
 
+/*Academic Year-Dropdown list*/
+
 #year {
   width: 255px;
   height: 30px;
   margin-left: 37px;
 }
 
+/*Familiar in-Checkbox*/
 #ch-1 {
   margin-left: 85px;
   transition: transform 0.5s;
@@ -431,6 +440,8 @@ tr:nth-child(even) {
   cursor: default;
 }
 
+/*Comment-Textarea*/
+
 .col-1{
   width: 25%;
   margin: 10px 0px 0px 0px;
@@ -449,6 +460,8 @@ tr:nth-child(even) {
   border: 2px rgb(238, 238, 238) solid;
   resize: none;
 }
+
+/*Submit button*/
 
 .submit {
   height: 40px;
@@ -476,6 +489,8 @@ tr:nth-child(even) {
 .s-r {
   padding-left: 200px;
 }
+
+/*Reset button*/
 
 .reset {
   height: 40px;
