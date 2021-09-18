@@ -163,11 +163,14 @@ body {
   justify-content: space-evenly;
 }
 
+/* Text Part */
+
 .home-h {
   font-size: 50px;
   font-weight: lighter;
 }
 
+/* Paragraph */
 .home-p {
   width: 43%;
   margin-top: 42px;
@@ -176,6 +179,8 @@ body {
   animation-duration: 3s;
   animation-timing-function: ease-in;
 }
+
+/* Image */
 
 .hero {
   width: 700px;
@@ -190,9 +195,13 @@ body {
   max-width: 100%;
 }
 
+/* Tags in Paragraph */
+
 .tags {
   background-color: rgb(238, 238, 238);
 }
+
+/* Why HTML? Button */
 
 .wh-button {
   background-color: rgb(252, 175, 88);
@@ -202,6 +211,8 @@ body {
   border-radius: 10px;
   margin-top: 25px;
 }
+
+/* Button Hover */
 
 .wh-button:hover {
   cursor: pointer;
@@ -228,7 +239,7 @@ body {
 
 .timetable {
   border-collapse: collapse;
-  margin: 50px auto;
+  margin: 0 auto;
   border-bottom: 2px solid;
   box-shadow: 0px 0px 15px 5px #DDDDDD;
   align-self: start;
