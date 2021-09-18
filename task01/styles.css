@@ -27,10 +27,11 @@ body {
 }
 
 @keyframes flyin {
-  0%{
-    top:-200px;
+  0% {
+    top: -200px;
   }
-  100%{
+
+  100% {
     top: 50px;
   }
 }
@@ -210,9 +211,10 @@ body {
   transform: scale(1.1);
 }
 
-.space{
+.space {
   height: 20px;
 }
+
 /* First page Table */
 .sample-table {
   font-size: 30px;
@@ -257,7 +259,8 @@ td {
   border: 1px solid #DDDDDD;
 }
 
-.timetable,tr:last-of-type {
+.timetable,
+tr:last-of-type {
   border-bottom: 3px solid rgb(78, 89, 140);
 }
 
@@ -402,9 +405,10 @@ tr:nth-child(even) {
 }
 
 #year {
-  width: 255px;
+  width: 250px;
   height: 30px;
-  margin-left: 37px;
+  border: 1px rgb(221, 221, 221) solid;
+  margin-left: 36px;
 }
 
 #ch-1 {
@@ -431,13 +435,13 @@ tr:nth-child(even) {
   cursor: default;
 }
 
-.col-1{
+.col-1 {
   width: 25%;
   margin: 10px 0px 0px 0px;
   height: 0px;
 }
 
-.col-2{
+.col-2 {
   width: 75%;
   margin: 3px 0px 0px 0px;
   padding-left: 80px;
@@ -474,7 +478,7 @@ tr:nth-child(even) {
 }
 
 .s-r {
-  padding-left: 200px;
+  padding-left: 192px;
 }
 
 .reset {
