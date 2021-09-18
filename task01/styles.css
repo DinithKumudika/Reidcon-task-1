@@ -21,6 +21,7 @@ tt {
   font-size: 15px;
 }
 
+/* Font Famly-Roboto */
 body {
 
   font-family: 'Roboto', sans-serif;
@@ -54,10 +55,6 @@ body {
 .logo:hover {
   transform: rotateY(360deg);
   transition-duration: 2s;
-}
-
-.Roboto-font {
-  font-family: 'Roboto';
 }
 
 
@@ -286,6 +283,9 @@ tr:nth-child(even) {
   background-color: #EEEEEE;
 }
 
+/**** Second Page content ****/
+
+/*** Main Division ***/
 .why-html {
   display: flex;
   margin: 54px 0;
@@ -295,6 +295,7 @@ tr:nth-child(even) {
   justify-content: space-evenly;
 }
 
+/** Image Div **/
 .app {
   width: 480px;
   animation-name: reveal;
@@ -307,6 +308,7 @@ tr:nth-child(even) {
   max-width: 100%;
 }
 
+/** Paragraph Div **/
 .paragraph {
   width: 40%;
   animation-name: reveal;
@@ -323,6 +325,7 @@ tr:nth-child(even) {
   display: inline;
 }
 
+/* HTML Paragraph */
 .p-html {
   text-align: left;
 }
@@ -331,6 +334,7 @@ tr:nth-child(even) {
   font-size: 15px;
 }
 
+/* CSS Paragraph */
 .p-css {
   text-align: justify;
 }
@@ -345,6 +349,7 @@ tr:nth-child(even) {
   padding: 3px;
 }
 
+/* JS Paragraph */
 .p-js {
 
   margin-left: 146px;
