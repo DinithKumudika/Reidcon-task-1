@@ -222,10 +222,6 @@ body {
   transform: scale(1.1);
 }
 
-.space {
-  height: 20px;
-}
-
 /* First page Table */
 .sample-table {
   font-size: 30px;
@@ -360,6 +356,10 @@ tr:nth-child(even) {
 
   margin-left: 146px;
   text-align: right;
+}
+
+.space {
+  height: 20px;
 }
 
 /* Page Two Form */
