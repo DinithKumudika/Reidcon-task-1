@@ -1,7 +1,7 @@
 /*Roboto font from google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/*Animations*/
+/* reveal animation using using opacity*/
 
 @keyframes reveal {
   0% {
@@ -13,7 +13,22 @@
   }
 
   100% {
-    opacity: 100%
+    opacity: 100%;
+  }
+}
+
+@keyframes revealrotate {
+  0% {
+    opacity: 0%
+  }
+
+  50% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+    transform: rotateY(360deg);
   }
 }
 
@@ -27,16 +42,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-@keyframes flyin {
-  0% {
-    top: -200px;
-  }
-
-  100% {
-    top: 50px;
-  }
-}
-
 /* Navigation Bar */
 
 .logo {
@@ -46,32 +51,26 @@ body {
   position: fixed;
   left: -5px;
   top: -1px;
-  animation-name: reveal;
+  animation-name: revealrotate;
   animation-delay: 0s;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: ease-in;
 }
 
+/*logo rotation*/
 .logo:hover {
   transform: rotateY(360deg);
   transition-duration: 2s;
 }
 
 
-.text-center {
-  display: flex;
-  justify-content: center;
-}
 
-.center {
-  display: flex;
-  align-content: flex-start;
-}
-
+/*removing bullet points*/
 .nav-list {
   list-style-type: none;
 }
 
+/*reveal animation for navigation links*/
 .nav-1,
 .nav-2 {
   margin-bottom: -15px;
@@ -81,6 +80,7 @@ body {
   animation-timing-function: ease-in;
 }
 
+/*navbar div properties*/
 .navbar {
   background-color: rgb(78, 89, 140);
   width: 100%;
@@ -97,11 +97,11 @@ body {
   animation-timing-function: ease-in;
 }
 
+/*index.html link*/
 .home {
   text-decoration: none;
   color: white;
   padding: 5px 2px 2px 2px;
-  font-size: 15px;
   float: right;
   margin-right: 50px;
 }
@@ -118,10 +118,10 @@ body {
 
 }
 
+/*whyhtml.html link*/
 .html {
   text-decoration: none;
   color: white;
-  font-size: 15px;
   padding: 5px 10px 2px 2px;
   float: right;
   margin-right: 75px;
@@ -138,15 +138,14 @@ body {
   transition: 0.3s;
 }
 
-.html:active {
-  color: black;
-  background-color: rgb(249, 199, 132);
-  border-width: 0px;
-  border-radius: 5px;
-  padding: 5px 8px 5px 8px;
-  transform: scale(1.1);
-  vertical-align: middle;
-  transition: 0.3s;
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  align-content: flex-start;
 }
 
 /* First page content */
@@ -160,11 +159,14 @@ body {
   justify-content: space-evenly;
 }
 
+/* Text Part */
+
 .home-h {
   font-size: 50px;
   font-weight: lighter;
 }
 
+/* Paragraph */
 .home-p {
   width: 43%;
   margin-top: 42px;
@@ -173,6 +175,8 @@ body {
   animation-duration: 3s;
   animation-timing-function: ease-in;
 }
+
+/* Image */
 
 .hero {
   width: 700px;
@@ -187,9 +191,13 @@ body {
   max-width: 100%;
 }
 
+/* Tags in Paragraph */
+
 .tags {
   background-color: rgb(238, 238, 238);
 }
+
+/* Why HTML? Button */
 
 .wh-button {
   background-color: rgb(252, 175, 88);
@@ -200,16 +208,14 @@ body {
   margin-top: 25px;
 }
 
+/* Button Hover */
+
 .wh-button:hover {
   cursor: pointer;
   background-color: rgb(78, 89, 140);
   color: white;
   transition: 0.5s;
   transform: scale(1.1);
-}
-
-.space {
-  height: 20px;
 }
 
 /* First page Table */
@@ -225,7 +231,7 @@ body {
 
 .timetable {
   border-collapse: collapse;
-  margin: 50px auto;
+  margin: 0 auto;
   border-bottom: 2px solid;
   box-shadow: 0px 0px 15px 5px #DDDDDD;
   align-self: start;
@@ -354,6 +360,10 @@ tr:nth-child(even) {
 
   margin-left: 146px;
   text-align: right;
+}
+
+.space {
+  height: 20px;
 }
 
 /* Page Two Form */
@@ -490,7 +500,6 @@ tr:nth-child(even) {
   background-color: rgb(255, 140, 66);
   transition: 0.5s;
   transform: scale(1.1);
-  transition: 0.9s;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -503,7 +512,7 @@ tr:nth-child(even) {
 
 .reset {
   height: 40px;
-  width: 90px;
+  width: 93px;
   border-width: 0px;
   border-radius: 10px;
   margin-left: 30px;
@@ -519,7 +528,6 @@ tr:nth-child(even) {
   background-color: rgb(221, 221, 221);
   transition: 0.5s;
   transform: scale(1.1);
-  transition: 0.9s;
   font-weight: bolder;
   cursor: pointer;
 }
